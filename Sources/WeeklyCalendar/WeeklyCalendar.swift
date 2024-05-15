@@ -68,11 +68,6 @@ public struct WeeklyCalendar: View {
                 selectedDate = newDate
             }
             .onChange(of: selectedDate) { _ in onChangeDate?(selectedDate) }
-            
-            Text(selectedDate.string("yyyy/MM/dd(EEE)"))
-                .frame(maxWidth: .infinity)
-                .font(Font(UIFont.monospacedDigitSystemFont(ofSize: 14, weight: .regular)))
-                .foregroundStyle(theme.dateTextColor)
         }
         .frame(height: height)
         .padding()

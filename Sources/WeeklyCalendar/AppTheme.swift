@@ -56,9 +56,9 @@ public struct AppTheme {
     public var todayTextColor: Color {
         switch theme {
         case .light:
-            return .red
+            return .teal
         case .dark:
-            return .red
+            return .teal
         case .cyberpunk:
             return .white
         case .custom(bgColor: _, weekdayTextColor: _, weekendTextColor: _, todayTextColor: let color, selectedTextColor: _ , selectedCircleColor: _, todaySelectedCircleColor: _, dateTextColor: _):
@@ -95,9 +95,9 @@ public struct AppTheme {
     public var todaySelectedCircleColor: Color {
         switch theme {
         case .light:
-            return .red
+            return .teal
         case .dark:
-            return .red
+            return .teal
         case .cyberpunk:
             return .white
         case .custom(bgColor: _, weekdayTextColor: _, weekendTextColor: _, todayTextColor: _, selectedTextColor: _ , selectedCircleColor: _, todaySelectedCircleColor: let color, dateTextColor: _):
